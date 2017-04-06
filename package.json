@@ -1,0 +1,23 @@
+{
+  "name": "file-metadata-microservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test *.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imooreva/file-metadata-microservice"
+  },
+  "author": "Ian Moore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imooreva/file-metadata-microservice/issues"
+  },
+  "homepage": "https://github.com/imooreva/file-metadata-microservice#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "multer": "^1.3.0"
+  }
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>File Metadata Microservice</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8"/>
+        <link href="/style.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>File Metadata Microservice</h1>
+        <p>Use the upload file form below to submit a FormData object.</p>
+        <p>When the upload is complete, a JSON response with the file's metadata shall be sent.</p>
+        <form action="/post-file" method="post" enctype="multipart/form-data">
+            <input type="file" name="form-upload" id="file-upload" required/>
+            <input type="submit" id="submit-button"/>
+        </form>
+    </body>    
+</html>

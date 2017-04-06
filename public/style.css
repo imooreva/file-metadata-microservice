@@ -1,0 +1,17 @@
+body {
+    background: #F7FFE6;
+    color: #446600;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.0rem;
+}
+
+p {
+    color:  #558000;
+}
+
+#file-upload {
+    background-color: chartreuse;
+    border: 2px solid;
+    display: block;
+    padding: 0.125rem;
+}

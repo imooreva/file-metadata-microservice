@@ -14,8 +14,9 @@ const publicPath = path.join(__dirname, '.././public'); //helps middleware work 
 //configure express and start listening
 var app = express();
 app.use(express.static(publicPath));
-if (!module.parent) { app.listen(port, () => console.log(`Started up on port ${port}`)) };
+if (!module.parent) { app.listen(port, () => console.log(`Started up on port ${port}`)) }; //conditional statement prevents EADDRINUSE error when running mocha/supertest
 
+//send metadata in JSON format in response to client's file upload
 app.post('/post-file', upload.single('form-upload'), (req,res) => {
     res.json({
         'File Name': req.file.originalname,

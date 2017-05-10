@@ -1,17 +1,35 @@
 body {
     background: #F7FFE6;
-    color: #446600;
+    color: #224411;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.0rem;
+    font-size: 1.125rem;
 }
 
 p {
-    color:  #558000;
+    color: #224411;
+}
+
+#file-upload, #submit-button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.125rem;
+    margin-top: 0.1875rem;
 }
 
 #file-upload {
-    background-color: #7FFF00;
-    border: 2px solid;
+    background-color: #b3ff66;
+    border: 0.125rem solid;
     display: block;
     padding: 0.125rem;
+}
+
+#footer {
+    margin-top: 2rem;
+}
+
+#footer>a {
+    text-decoration: none;
+}
+
+#footer>a:hover {
+    text-decoration: underline;
 }

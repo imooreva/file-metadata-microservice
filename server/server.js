@@ -25,3 +25,6 @@ app.post('/post-file', upload.single('form-upload'), (req,res) => {
         'Size (bytes)': Number(req.file.size)
     });
 });
+
+//handle console error by sending 'No Content' status
+app.get('/favicon.ico', (req, res) => res.sendStatus(204));

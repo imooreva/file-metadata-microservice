@@ -16,14 +16,14 @@ p {
 }
 
 #file-upload {
-    background-color: #b3ff66;
+    background-color: #B3FF66;
     border: 0.125rem solid;
     display: block;
     padding: 0.125rem;
 }
 
 #hr1 {
-    border-top: 1px solid #444444;
+    border: 1px solid #999999;
     margin-top: 2rem;
 }
 
@@ -32,6 +32,7 @@ p {
 }
 
 #footer>a {
+    color: #07ABAB;
     text-decoration: none;
 }
 
@@ -44,17 +45,17 @@ p {
     
     #heading1 {
         font-size: 1.5rem;
-    }
-    
+    }    
     body {
         font-size: 0.875rem;
     }
-    
+    #file-upload {
+        max-width: 98%;
+    }
     #file-upload, #submit-button {
-        font-size: 0.875rem;
+        font-size: 1rem;
         margin-top: 0.5rem;
     }
-    
     #hr1, #footer {
         margin-top: 1.25rem
     }    
